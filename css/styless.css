@@ -1,0 +1,242 @@
+
+
+
+#fondo{
+
+   background-image: url(../imagenes/fondo.jpg); 
+   height: 1800px;
+   background-repeat: no-repeat;
+}
+
+
+
+
+.titulo{
+
+   text-align: center;
+
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+
+   position: relative;
+
+   left: 400px;
+   text-align: center;
+  
+}
+
+.login{
+
+   text-align: center;
+   padding: 60px;
+}
+
+/*  apartado para diseño de la pagina principal */
+.principal{
+
+   background-image: url(../imagenes/fondo.jpg); 
+   height: 1800px;
+   
+}
+
+
+.nombre{
+
+   display: inline;
+}
+
+
+.camisas{
+
+   display: inline;
+}
+
+.camisea1{
+
+position: relative;
+left: 20px;
+
+}
+
+.camisa2{
+
+   position: relative;
+   left: 150px;
+   
+   }
+
+   .precio1 {
+
+      position: relative;
+      left: 40px;
+      
+   }
+   
+.imagen-buzo1{
+
+   position: relative ;
+   left: 20px;
+}
+
+.buzo1{
+
+   position: relative ;
+   left: 40px;
+}
+.imagen-buzo2{
+
+   position: relative ;
+   left: 80px;
+}
+
+.buzo2{
+
+   position: relative ;
+   left: 170px;
+   border
+   margin: 10px  0 ;
+   border-radius: 1px;
+}
+
+
+.logo{
+
+   padding: 1em;
+}
+
+.tab1{
+   float: left;
+   border:#CACFD2 5px solid;
+   padding: 1px;
+   color: #fff;
+   width: 200px;
+   margin: 7px;
+   background:#1C2833;
+ }
+  
+
+
+   .wrap{
+      max-width: 1100px;
+      width: 90%;
+      margin: auto;
+   }
+   
+   .wrap > h1{
+      color: #494B4D;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 15px 0px;
+   }
+   
+   .wrap > h1:after{
+      content: '';
+      width: 100%;
+      height: 1px;
+      background: #C7C7C7;
+      margin: 20px 0;
+   }  
+
+   .store-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+   }
+   
+   .category_list{
+      display: flex;
+      flex-direction: column;
+      width: 18%;
+   }
+   
+   .category_list .category_item{
+      display: block;
+      width: 90%;
+      padding: 15px 0;
+      margin-bottom: 20px;
+      background: #E84C3D;
+   
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+   }
+   
+   .category_list .ct_item-active{
+      background: #2D3E50;
+   }
+
+
+   .camiseta1{
+
+
+
+   transition: box-shadow 0.3 ease;
+   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+   cursor: pointer
+
+  
+
+   }
+
+.camiseta2{
+
+   position: relative;
+   left: 150px;
+      transition: box-shadow 0.3 ease;
+   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+   cursor: pointer
+
+
+
+   }
+
+   .jean1{
+
+      position: relative;
+      left: 180px;
+         transition: box-shadow 0.3 ease;
+      box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+      cursor: pointer
+   
+   
+   
+      }
+
+      .jean2{
+
+         position: relative;
+         left: 331px;
+            transition: box-shadow 0.3 ease;
+         box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+         cursor: pointer
+      
+      
+      
+         }
+         .buzo1{
+
+            position: relative;
+            left: 38px;
+            top: 570px;
+               transition: box-shadow 0.3 ease;
+            box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+            cursor: pointer
+         
+         
+         
+            }
+
+            .buzo2{
+
+               position: relative;
+               left: 180px;
+                  transition: box-shadow 0.3 ease;
+               box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+               cursor: pointer
+            
+            
+            
+               }
